@@ -35,7 +35,7 @@ export default {
         secure: process.env.NODE_ENV === "production" && process.env.TESTING !== "true" // Set Secure in the Set-Cookie header i.e. require https
     },
     corsAllowedOrigins: [
-        /^https?:\/\/(?:.+\.)?sourcify.dev$/, // sourcify.dev and subdomains
+        /^https?:\/\/(?:.+\.)?candleexplorer.com$/, // sourcify.dev and subdomains
         process.env.NODE_ENV === "development" && /^https?:\/\/localhost(?::\d+)?$/, // localhost on any port
     ]
 }
