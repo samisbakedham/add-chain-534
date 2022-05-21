@@ -11,7 +11,7 @@ export default {
     },
     server: {
         port: process.env.SERVER_PORT || 5000,
-        url: process.env.SERVER_URL || "http://localhost:5000",
+        url: process.env.SERVER_URL || "https://server.candleexplorer.com",
         maxFileSize: 30 * 1024 * 1024 // 30 MB
     },
     localchain: {
